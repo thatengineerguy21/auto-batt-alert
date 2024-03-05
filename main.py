@@ -25,5 +25,5 @@ def check_battery_level():
 if __name__ == "__main__":
     while True:
         check_battery_level()
-        # Check every 10 minutes
-        sleep(600)
+        # Check every 2 minutes
+        sleep(120)
